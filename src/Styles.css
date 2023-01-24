@@ -1,0 +1,138 @@
+.hero-text1 {
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text1-sub {
+    font-size: 15vw;
+    color: rgb(255, 200, 80);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: relative;
+    right: 80%;
+}
+
+.searchBar {
+    width: 300px;
+    height: 30px;
+}
+
+.navbar {
+    transform: scale(0.98);
+}
+.FavoShop{
+    line-height: 40px;
+}
+.homeDeco-text {
+    position: relative;
+    bottom: 250px;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+img {
+    box-shadow: 1px 1px 1px rgb(110, 108, 98);
+}
+a{
+    text-decoration: none;
+}
+.footerCopyRight{
+    font-size: 12px;
+    color: rgb(180, 180, 180); 
+}
+.Logo {
+    box-shadow: none;
+    width: 50px;
+    filter: drop-shadow(2px 2px 0px rgb(255, 255, 255));
+}
+.CTA-topNavBar-text{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+@media screen and (max-width:1000px) {
+    .CTA-topNavBar-text {
+        display: none;
+    }
+
+    .searchBar {
+        width: 200px;
+        height: 30px;
+    }
+
+    .Hamburger {
+        transform: scale(0.6);
+    }
+
+    .CTA-member-text h5 {
+        font-size: 13px;
+    }
+}
+
+.CTA {
+    box-shadow: 4px 4px 5px rgb(110, 108, 98);
+}
+
+.CTA-module-right {
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    border-left: 1px solid rgb(74, 74, 74);
+}
+
+.CTA-module-left {
+    color: rgba(0, 0, 0, 0.566);
+    transform: scale(0.85);
+}
+
+.CTA-module-text {
+    font-size: 12px;
+    color: rgb(59, 59, 59);
+}
+
+.CTA-member-text {
+    color: rgb(180, 0, 0);
+    background-color: rgb(255, 207, 247);
+}
+
+.CTA-button {
+    border: none;
+    background-color: rgb(255, 246, 235);
+}
+
+.MemberInfo {
+    background-color: transparent;
+    border: none;
+    color: rgb(180, 0, 0);
+}
+
+.production_title_text{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.production_title_text:hover{
+    text-decoration: underline;
+}
+.likeButton{
+    display: flex;
+    position: relative;
+    bottom:40px;
+    right:10px;
+    color:red;
+    font-size: 30px;
+    justify-content: flex-end;
+}
+.shoppingItemAmount{
+    transform: scale(0.75);
+    position: relative;
+    top:-8px;
+    right:8px;
+}
+.cart{
+width: fit-content;
+}
+.cart-item__image{
+    width: 120px;
+}
+.cart__total{
+    padding-top: 10px;
+    border-top: solid 1px gray;
+}
